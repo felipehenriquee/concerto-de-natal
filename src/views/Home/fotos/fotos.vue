@@ -106,7 +106,7 @@ export default defineComponent({
   background-image: url("@/assets/images/background.jpg");
   background-size: contain;
   width: 50px;
-  color: #eaa61f;
+  color: #EDE434;
   height: 50px;
   border-radius: 100%;
   &:hover {
@@ -118,7 +118,7 @@ export default defineComponent({
   background-image: url("@/assets/images/background.jpg");
   background-size: contain;
   width: 50px;
-  color: #eaa61f;
+  color: #EDE434;
   height: 50px;
   border-radius: 100%;
   &:hover {

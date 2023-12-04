@@ -9,7 +9,7 @@
       <div>
         <a href="#home">
           <h2
-            class="text-[18px] lg:text-[22px] uppercase text-center text-[#eaa61f]"
+            class="text-[18px] lg:text-[22px] uppercase text-center text-[#EDE434]"
           >
             Concerto de Natal da Catedral
           </h2>

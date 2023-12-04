@@ -8,10 +8,10 @@
       <div v-for="(musica, i) in musical" :key="i" class="min-w-[250px] w-[12%] mt-8 p-2 rounded-md"  :style="`background-image: url(${background})`" >
         <img class="rounded-t-md gap-8" :src="musica.image" alt="">
         <div class="w-full flex items-center flex-col mt-2">
-          <h5 class="font-bold text-center text-[#eaa61f] bg-[#0000007f]">
+          <h5 class="font-bold text-center text-[#EDE434]">
             {{musica.title}}
           </h5>
-          <p class="text-[#ffffff] text-center text-[14px] bg-[#0000007f]">{{musica.cantor}}</p>
+          <p class="text-[#ffffff] text-center text-[14px]">{{musica.cantor}}</p>
         </div>
       </div>
     </div>

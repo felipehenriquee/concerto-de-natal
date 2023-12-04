@@ -7,14 +7,14 @@
     <div class="w-full relative flex sm:items-center h-full overflow-hidden">
       <div class="w-full lg:w-[60%] max-w-[1000px] px-2 sm:px-8">
         <h1
-          class=" mt-[25%] sm:mt-0 text-[50px] md:text-[80px] text-center text-[#eaa61f]"
+          class=" mt-[25%] sm:mt-0 text-[50px] md:text-[80px] text-center text-[#EDE434]"
         >
           Concerto de Natal da Catedral
         </h1>
         <h1
-          class="text-[30px] md:text-[40px] text-center text-[#eaa61f] mt-2 md:mt-8"
+          class="text-[30px] md:text-[40px] text-center text-[#EDE434] mt-2 md:mt-8"
         >
-          25.11.2023
+          09.12.2023
         </h1>
       </div>
       <img
