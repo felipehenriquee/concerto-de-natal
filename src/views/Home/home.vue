@@ -2,9 +2,6 @@
   <Navbar />
   <div class="bg-[#fdfdfd]">
     <Intro /><!-- Capa do site  -->
-    <Concerto />
-    <!-- Foto do tapete vermelho  -->
-
     <About /><!-- Sobre o concerto  -->
     <Musical /><!-- programação  -->
     <Patrocinio /><!-- pratrocinio  -->

@@ -20,7 +20,7 @@
             alt="imagem"
           />
           <div
-            :class="`background-card-concerto bg-[#f6f0fd] w-[90%] sm:w-[50%] min-w-[300px] sm:min-w-[450px]   min-h-[300px] ${
+            :class="`background-card-concerto bg-[#f6f0fd] w-[90%] sm:w-[50%] min-w-[300px] sm:min-w-[450px]   min-h-[150px] ${
               card.class === 'left'
                 ? 'ml-0 sm:ml-[-100px]'
                 : 'mr-0 sm:mr-[-100px] z-10'

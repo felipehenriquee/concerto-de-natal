@@ -6,7 +6,7 @@
         class="w-full flex items-center justify-center flex-col sm:flex-row gap-8"
       >
         <img
-          class="min-w-[250px] w-[20%]"
+          class="min-w-[300px] w-[22%]"
           :src="dibra"
           alt="logo dibra dias branco participações"
         />
@@ -14,15 +14,15 @@
       </div>
       <div class="w-full flex items-center justify-center">
         <div
-          class="min-w-[500px] w-[35%] flex flex-col sm:flex-row items-center sm:justify-between gap-8"
+          class="min-w-[150px] sm:min-w-[300px] w-[32%] flex flex-col sm:flex-row items-center sm:justify-between gap-8"
         >
           <img
-            class="min-w-[250px] w-[15%]"
+            class="min-w-[150px] w-[15%]"
             :src="cearaHoje"
             alt="logo Ceará Hoje"
           />
           <img
-            class="min-w-[250px] w-[20%]"
+            class="min-w-[150px] w-[15%]"
             :src="noveSete"
             alt="logo noveSete"
           />
