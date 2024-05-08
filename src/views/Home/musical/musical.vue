@@ -7,8 +7,8 @@
       Programação Musical
     </h3>
 
-    <div class="container mx-auto mt-8">
-      <p class="text-center">
+    <div class="container mx-auto md:mt-8 p-8">
+      <p class="text-justify md:text-center">
         A Comissão Organizadora preparou este evento que conta com uma
         Programação Musical que ficará a cargo do Quarteto Cantabile, composto
         por 01 (um) violoncelo, 2 (dois) violinos e 01 (uma) viola. Teremos
@@ -21,7 +21,7 @@
       <div
         v-for="(musica, i) in musical"
         :key="i"
-        class="min-w-[250px] shadow-md w-[20%] mt-8 p-2 rounded-md bg-[#f6f0fd]"
+        class="min-w-[250px] shadow-md w-[20%] mt-8 p-2 pb-4 rounded-md bg-[#f6f0fd]"
       >
         <img
           class="rounded-t-md gap-8 h-[200px] w-full"
@@ -29,10 +29,10 @@
           alt=""
         />
         <div class="w-full flex items-center flex-col mt-2">
-          <h5 class="text-center text-black font-bold">
+          <h4 class="text-center text-black font-bold text-[18px]">
             {{ musica.title }}
-          </h5>
-          <p class="text-black text-center text-[14px]">
+          </h4>
+          <p class="text-black text-center text-[16px]">
             {{ musica.cantor }}
           </p>
         </div>
