@@ -1,27 +1,28 @@
 <template>
-  <div
-    id="home"
-    class="background w-full h-screen flex items-center"
-    :style="`background-image: url(${background})`"
-  >
+  <div id="home" class="background w-full h-screen flex items-center">
     <div class="w-full relative flex sm:items-center h-full overflow-hidden">
-      <div class="w-full lg:w-[60%] max-w-[1000px] px-2 sm:px-8">
-        <h1
-          class=" mt-[25%] sm:mt-0 text-[50px] md:text-[80px] text-center text-[#EDE434]"
-        >
-          Concerto de Natal da Catedral
-        </h1>
-        <h1
-          class="text-[30px] md:text-[40px] text-center text-[#EDE434] mt-2 md:mt-8"
-        >
-          09.12.2023
-        </h1>
+      <div class="w-full flex flex-col md:flex-row justify-center px-2 sm:px-8">
+        <div class="w-full md:w-1/2 flex items-center justify-center">
+          <img class="w-[80%]" src="@/assets/images/vitral.png" alt="" />
+        </div>
+        <div class="w-full md:w-1/2 flex flex-col justify-center">
+          <h1
+            class="mt-[25%] sm:mt-0 text-[50px] md:text-[80px] text-center text-black"
+          >
+            Concerto para as mães
+          </h1>
+          <h1
+            class="text-[30px] md:text-[40px] text-center text-black mt-2 md:mt-8"
+          >
+            Dia 11 de maio de 2024 às 16:30h
+          </h1>
+          <h1
+            class="text-[30px] md:text-[40px] text-center text-black mt-2 md:mt-8"
+          >
+            Catedral Metropolitana de Fortaleza
+          </h1>
+        </div>
       </div>
-      <img
-        class="sm:w-[38%] sm:min-w-[280px] absolute right-[-10px] md:right-[-20px] bottom-[-20px] md:bottom-[-50px]"
-        src="@/assets/images/catedral.png"
-        alt=""
-      />
     </div>
   </div>
 </template>

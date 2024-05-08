@@ -1,16 +1,15 @@
 <template>
   <div
     id="contact"
-    class="background w-full min-h-[400px] mt-32 flex items-center flex-col gap-4 justify-center"
-    :style="`background-image: url(${background})`"
+    class="background bg-[#f6f0fd] w-full min-h-[400px] mt-32 flex items-center flex-col gap-4 justify-center"
   >
-    <h3 class="text-white text-[38px] md:text-[48px] font-[600] text-center">
-      O Concerto de Natal da Catedral
+    <h3 class="text-black text-[38px] md:text-[48px] font-[600] text-center">
+      Concerto para as Mães
     </h3>
-    <p class="text-[16px] md:text-[25px] text-white -mt-4 font-bold">
+    <p class="text-[16px] md:text-[25px] text-black -mt-4 font-bold">
       concertodenataldacatedral@gmail.com
     </p>
-    <p class="text-[12px] md:text-[16px] text-[#fffa]">
+    <p class="text-[12px] md:text-[16px] text-[#000a]">
       Copyright ©{{ getCurrentYear() }} Todos os direitos reservados
     </p>
   </div>

@@ -1,20 +1,16 @@
 <template>
   <Navbar />
-  <Intro /><!-- Capa do site  -->
-  <Concerto /> <!-- Foto do tapete vermelho  -->
-  <Fotos /> <!-- Slides de foto  -->
-  <a href="https://reveillondefortaleza.com.br/">
-    <div class="mt-8 py-8 cursor-pointer">
-     <img :src="banner" alt="banner">
-    </div>
-  </a>
+  <div class="bg-[#fdfdfd]">
+    <Intro /><!-- Capa do site  -->
+    <Concerto />
+    <!-- Foto do tapete vermelho  -->
 
-  <About /><!-- Sobre o concerto  -->
-  <Musical /><!-- programação  -->
-  <Patrocinio /><!-- pratrocinio  -->
+    <About /><!-- Sobre o concerto  -->
+    <Musical /><!-- programação  -->
+    <Patrocinio /><!-- pratrocinio  -->
 
-  <FooterConcerto /><!-- rodapé  -->
-
+    <FooterConcerto /><!-- rodapé  -->
+  </div>
 </template>
 
 <script lang="ts">
@@ -24,8 +20,12 @@ const Concerto = defineAsyncComponent(() => import("./concerto/concerto.vue"));
 const Fotos = defineAsyncComponent(() => import("./fotos/fotos.vue"));
 const About = defineAsyncComponent(() => import("./about/about.vue"));
 const Musical = defineAsyncComponent(() => import("./musical/musical.vue"));
-const FooterConcerto = defineAsyncComponent(() => import("./footerConcerto/footerConcerto.vue"));
-const Patrocinio = defineAsyncComponent(() => import("./patrocinio/patrocinio.vue"));
+const FooterConcerto = defineAsyncComponent(
+  () => import("./footerConcerto/footerConcerto.vue")
+);
+const Patrocinio = defineAsyncComponent(
+  () => import("./patrocinio/patrocinio.vue")
+);
 import banner from "@/assets/images/banner.png";
 export default defineComponent({
   name: "Home",
@@ -36,7 +36,7 @@ export default defineComponent({
     About,
     Musical,
     FooterConcerto,
-    Patrocinio
+    Patrocinio,
   },
   data() {
     return {

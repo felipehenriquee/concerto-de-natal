@@ -1,24 +1,21 @@
 <template>
   <nav
-    class="background p-4 w-full fixed z-50"
-    :style="`${
-      isNavbarTransparent ? `background-image: url(${background})` : ''
-    }`"
+    class="background bg-[#f6f0fd] shadow-md p-4 w-full fixed z-50"
   >
     <div class="container w-full mx-auto flex justify-between items-center">
       <div>
         <a href="#home">
           <h2
-            class="text-[18px] lg:text-[22px] uppercase text-center text-[#EDE434]"
+            class="text-[18px] lg:text-[22px] uppercase text-center text-black"
           >
-            Concerto de Natal da Catedral
+            Concerto Para as mães
           </h2>
         </a>
       </div>
       <div class="hidden md:flex space-x-4">
         <a
           :href="menu.href"
-          class="text-white hover:text-gray-200 uppercase text-[14px] lg:text-[16px]"
+          class="text-black hover:text-gray-800 uppercase text-[14px] lg:text-[16px]"
           v-for="(menu, i) in menus"
           :key="i"
           >{{ menu.title }}</a
@@ -59,7 +56,6 @@ export default defineComponent({
     return {
       isMobileMenuOpen: false,
       menus: [
-        { title: "Fotos", href: "#fotos" },
         { title: "O Concerto", href: "#about" },
         { title: "Programação", href: "#musical" },
         { title: "Contato", href: "#contact" },
