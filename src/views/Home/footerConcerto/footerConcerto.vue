@@ -7,7 +7,7 @@
       Concerto para as Mães
     </h3>
     <p class="text-[16px] md:text-[25px] text-black -mt-4 font-bold">
-      concertodenataldacatedral@gmail.com
+      concertoparaasmaes@gmail.com
     </p>
     <p class="text-[12px] md:text-[16px] text-[#000a]">
       Copyright ©{{ getCurrentYear() }} Todos os direitos reservados

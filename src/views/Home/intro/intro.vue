@@ -2,12 +2,12 @@
   <div id="home" class="background w-full h-screen flex items-center">
     <div class="w-full relative flex sm:items-center h-full overflow-hidden">
       <div class="w-full flex flex-col md:flex-row justify-center px-2 sm:px-8">
-        <div class="w-full md:w-[40%] lg:w-1/2 flex items-center justify-center">
+        <div class="w-full md:w-[40%] xl:w-1/2 flex items-center justify-center">
           <img class="w-[80%]" src="@/assets/images/vitral.png" alt="" />
         </div>
-        <div class="w-full md:w-[60%] lg:w-1/2 flex flex-col justify-center">
+        <div class="w-full md:w-[60%] 2xl:w-1/2 flex flex-col justify-center">
           <h1
-            class="mt-8 md:mt-[0] text-[30px] lg:text-[50px] xl:text-[80px] text-center text-black"
+            class="mt-8 md:mt-[0] text-[30px] lg:text-[40px] xl:text-[80px] text-center text-black"
           >
             Concerto para as mães
           </h1>

@@ -49,17 +49,16 @@ export default defineComponent({
       background: background,
       cards: [
         {
-          image: about2,
+          image: about4,
           class: "left",
           content:
-            "O Concerto para as Mães é um evento musical que tem como objetivo homenagear as mães e presenteá-las em decorrência desta data tão especial que é o Dia das Mães.",
+            "O Concerto para as Mães será realizado sábado, dia 11 de Maio de 2024, com início as 16:30 h na Catedral Metropolitana de Fortaleza. O evento é aberto ao público e oferecido gratuitamente à população. Participe!",
         },
-
         {
-          image: about4,
+          image: about2,
           class: "right",
           content:
-            "O Concerto para as Mães será realizado sábado, dia 11 de Maio de 2024, com início as 16:30 h na Catedral Metropolitana de Fortaleza. O evento é aberto ao público e oferecido gratuitamente à população. Participe!",
+            "O Concerto para as Mães é um evento musical que tem como objetivo homenagear as mães e presenteá-las em decorrência desta data tão especial que é o Dia das Mães.",
         },
       ],
     };
