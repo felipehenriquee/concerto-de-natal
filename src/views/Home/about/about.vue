@@ -71,7 +71,7 @@ export default defineComponent({
           image: about4,
           class: "right",
           content:
-            "O Concerto de Natal da Catedral será realizado no sábado, dia 09 de dezembro de 2023 com início às 17:00 h e terá uma hora e meia de duração para um público estimado de 5.500 (cinco mil e quinhentas) pessoas desenvolvendo-se com a participação de orquestra, um grupo de tenores e um grupo de regentes selecionado pela Comissão Organizadora.",
+            "O Concerto de Natal da Catedral será realizado no sábado, dia 14 de dezembro de 2024 com início às 16:00h e terá uma hora e meia de duração para um público estimado de 5.500 (cinco mil e quinhentas) pessoas desenvolvendo-se com a participação de orquestra, um grupo de tenores e um grupo de regentes selecionado pela Comissão Organizadora.",
         },
       ],
     };

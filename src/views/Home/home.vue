@@ -3,12 +3,6 @@
   <Intro /><!-- Capa do site  -->
   <Concerto /> <!-- Foto do tapete vermelho  -->
   <Fotos /> <!-- Slides de foto  -->
-  <a href="https://reveillondefortaleza.com.br/">
-    <div class="mt-8 py-8 cursor-pointer">
-     <img :src="banner" alt="banner">
-    </div>
-  </a>
-
   <About /><!-- Sobre o concerto  -->
   <Musical /><!-- programação  -->
   <Patrocinio /><!-- pratrocinio  -->
