@@ -34,16 +34,16 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import prefeitura from "@/assets/images/patrocinio/prefeitura.svg";
+// import prefeitura from "@/assets/images/patrocinio/prefeitura.svg";
 import dibra from "@/assets/images/patrocinio/dibra.svg";
-import cultura from "@/assets/images/patrocinio/cultura_pf.svg";
+// import cultura from "@/assets/images/patrocinio/cultura_pf.svg";
 import sesc from "@/assets/images/patrocinio/sesc.svg";
-import fiec from "@/assets/images/patrocinio/fiec.svg";
-import sesi from "@/assets/images/patrocinio/sesi.svg";
-import bspar from "@/assets/images/patrocinio/bspar.svg";
-import luiz from "@/assets/images/patrocinio/sao_luiz.svg";
-import opovo from "@/assets/images/patrocinio/opovo.svg";
-import geraldo from "@/assets/images/patrocinio/sao_geraldo.svg";
+// import fiec from "@/assets/images/patrocinio/fiec.svg";
+// import sesi from "@/assets/images/patrocinio/sesi.svg";
+// import bspar from "@/assets/images/patrocinio/bspar.svg";
+// import luiz from "@/assets/images/patrocinio/sao_luiz.svg";
+// import opovo from "@/assets/images/patrocinio/opovo.svg";
+// import geraldo from "@/assets/images/patrocinio/sao_geraldo.svg";
 import shalom from "@/assets/images/patrocinio/shalom.jpeg";
 import marquise from "@/assets/images/patrocinio/marquise.svg";
 import sfiec from "@/assets/images/patrocinio/sfiec.svg";
