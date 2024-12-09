@@ -1,16 +1,33 @@
 <template>
   <div id="patrocinio" class="">
-    <p class="text-center  mt-32">Patrocínio</p>
-    <div class="w-full patrocinio container mx-auto flex justify-center gap-10 mt-2">
-      <img class="min-w-[170px] w-[10%]" :src="sfiec" alt="logo SESC">
-      <img class="min-w-[250px] w-[20%]" :src="sesc" alt="logo SESC">
-      <img class="min-w-[250px] w-[20%]" :src="dibra" alt="logo dibra dias branco participações">
-      <img class="min-w-[250px] w-[20%]" :src="marquise" alt="logo dibra dias branco participações">
-      <img class="min-w-[250px] w-[18%]" :src="ecofor" alt="logo dibra dias branco participações">
+    <p class="text-center mt-32">Patrocínio</p>
+    <div
+      class="w-full patrocinio container mx-auto flex justify-center gap-8 mt-2"
+    >
+      <img class="min-w-[170px] w-[10%]" :src="sfiec" alt="logo SESC" />
+      <img class="min-w-[250px] w-[20%] ml-12" :src="sesc" alt="logo SESC" />
+      <img
+        class="min-w-[250px] w-[20%] ml-[-10px]"
+        :src="dibra"
+        alt="logo dibra dias branco participações"
+      />
     </div>
-    <p class="text-center  mt-4">Apoio</p>
-    <div class="w-full patrocinio container mx-auto flex justify-center gap-16">
-      <img class="min-w-[150px] w-[10%] mt-4" :src="shalom" alt="logo SESC">
+
+    <div class="w-full patrocinio container mx-auto flex flex-row justify-center gap-16">
+      <img
+        class="min-w-[250px] w-[20%]"
+        :src="marquise"
+        alt="logo dibra dias branco participações"
+      />
+      <img
+        class="min-w-[250px] w-[18%]"
+        :src="ecofor"
+        alt="logo dibra dias branco participações"
+      />
+      <div class="min-w-[250px] w-[18%] mt-[-20px]">
+        <p class="mt-4">Apoio</p>
+        <img class="min-w-[150px] w-[10%] mt-2" :src="shalom" alt="logo SESC" />
+      </div>
     </div>
   </div>
 </template>

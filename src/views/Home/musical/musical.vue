@@ -54,11 +54,11 @@ export default defineComponent({
       show: false as boolean,
       background: background,
       musical: [
-        { image: musical2, title: "Primavera", cantor: null },
-        { image: musical1, title: "Ave Maria", cantor: null },
+        { image: musical2, title: "O Senhor Fez Em Mim Maravilhas", cantor: null },
+        { image: musical1, title: "Primavera", cantor: null },
         { image: musical12, title: "Anjos Descem a Cantar", cantor: null },
         { image: musical4, title: "Boas Festas", cantor: null },
-        { image: musical10, title: "Ária", cantor: null },
+        { image: musical10, title: "Ária de Bach", cantor: null },
         { image: musical6, title: "Adeste Fidélis", cantor: null },
         { image: musical15, title: "White Christmas", cantor: null },
         {
